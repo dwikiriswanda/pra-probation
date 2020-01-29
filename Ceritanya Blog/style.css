@@ -1,0 +1,168 @@
+html{
+  height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+body{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: "Luna";
+}
+
+header{
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 30vw 0 5vw;
+  position: relative;
+  transform-style: inherit;
+  width: 100vw;
+}
+header h1 {
+  margin-top: -100px;
+}
+header, header:before{
+  background: 50% 50% / cover;
+}
+header::before{
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  background-image: url(bg_1.jpg);
+  background-size: cover;
+  transform-origin: center center 0;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  min-height: 100vh;
+}
+
+header * { 
+  font-weight: normal;
+  letter-spacing: 0.3em;
+  text-align: center;
+  margin: 0;
+  padding: 1em 0;
+}
+
+
+/* css buat isi */
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg_2.jpg) no-repeat;
+    background-size: cover;
+  }
+  .wrap{
+    width: 1000px;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin: auto;
+    margin-top: 50%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .artikel_1{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 10%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .artikel_2{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 33%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .artikel_3{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 10%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .artikel_4{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 33%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+
+  .about{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .about-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .about h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .about p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .about li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .about li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .about li a:hover{
+    color: #b9b9b9;
+  }
+
+footer{
+  margin-top: 100px;
+  text-align: center;
+  background-color:#333;
+  color: #fff;
+  padding: 20px;
+}
+  
